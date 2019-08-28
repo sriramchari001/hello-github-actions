@@ -7,5 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: ./action-a
+    - uses: actions/setup-python@v1.0.0
       env:
         MY_NAME: "Mona"
